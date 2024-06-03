@@ -1,0 +1,314 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abfcdfedc67444b39d9a972d101a9043, type: 3}
+  m_Name: GameSoundSO
+  m_EditorClassIdentifier: 
+  menuBackground:
+    clip: {fileID: 8300000, guid: 852f8b86fc7ff6e42a4ea2a766ae55cb, type: 3}
+    type: 1
+    volume: 0.8
+    loop: 1
+  menuClassicButton:
+    clip: {fileID: 8300000, guid: 4e4f59bad5246ef4cbe5664306035fd2, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  menuPlayButton:
+    clip: {fileID: 8300000, guid: e0d00bee813c5ba49a18b09bf837263c, type: 3}
+    type: 0
+    volume: 0.8
+    loop: 0
+  menuTurnPage:
+    clip: {fileID: 8300000, guid: 6311fea893c617745ac732372e8dc0c3, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  menuDress:
+    clip: {fileID: 8300000, guid: bc8f270a0018d34488da159fdb2e4135, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  menuPacketPrize:
+    clip: {fileID: 8300000, guid: b00f0c4e552d72441879cee5b42543f1, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  menuPacketTearing:
+    clip: {fileID: 8300000, guid: 8c311ea6a1b3bab42963fac7bc2e8f4f, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  creationWin:
+    clip: {fileID: 8300000, guid: 4c371dbf5749d8847a5eb41a3e1055f4, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  creationLose:
+    clip: {fileID: 8300000, guid: c941e753e400dc64caa9f76a9ac669fa, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  creationSkill:
+    clip: {fileID: 8300000, guid: 0232e8e1200b8654e914adbed1027461, type: 3}
+    type: 0
+    volume: 0.75
+    loop: 0
+  memoryMatchCardTurning:
+    clip: {fileID: 8300000, guid: cf326cc10e13328478f0182333ccf762, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  memoryMatchCorrectMatch:
+    clip: {fileID: 8300000, guid: 55e3aa73cd1d38c4f8e84acdfd4d71fa, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  memoryMatchIncorrectMatch:
+    clip: {fileID: 8300000, guid: f87071203f8bff349956afdcb0a04010, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  puzzleSlide:
+    clip: {fileID: 8300000, guid: 166ffc28f12c62a458e44a8b2caa9dd2, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  puzzleFreezeSkill:
+    clip: {fileID: 8300000, guid: 3794364ba4c44c64298b89d55d3b8071, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  puzzleIceBreaking:
+    clip: {fileID: 8300000, guid: 866759d801d08c24bbad9fbf413237c4, type: 3}
+    type: 0
+    volume: 0.65
+    loop: 0
+  playerCustomizationSelectingSkin:
+    clip: {fileID: 8300000, guid: d9642bf8684e6544cb3009a84201f7d3, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  marketBuy:
+    clip: {fileID: 8300000, guid: 8e8b43798dcfe8849997538b8f3df8c8, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  competitionWin:
+    clip: {fileID: 8300000, guid: 284bfbf61dd2038478224317d1d75cb8, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  competitionLose:
+    clip: {fileID: 8300000, guid: c3a2e165953b13942858f50ece9275c6, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  competitionTourWin:
+    clip: {fileID: 8300000, guid: 403f883a9d4fdf74ea2a0dbe4f279753, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  competitionTourLose:
+    clip: {fileID: 8300000, guid: 8f364bb10a8633d4fa489f7810f8d2f5, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  competitionCountdown:
+    clip: {fileID: 8300000, guid: 953c9e0a96ce23f41a0958a75bd47ede, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  competitionHorn:
+    clip: {fileID: 8300000, guid: 6f9c1c5185633ec428ab52f48bd38bb3, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  laserJump:
+    clip: {fileID: 8300000, guid: c6c69037f303c224d81ee7c9ed1a5a78, type: 3}
+    type: 0
+    volume: 0.85
+    loop: 0
+  laserLaserSound:
+    clip: {fileID: 8300000, guid: d7c9d066d82ecf64fb4d7a75c70787f8, type: 3}
+    type: 0
+    volume: 0.31
+    loop: 1
+  laserDead:
+    clip: {fileID: 8300000, guid: 4d456e1354c4ed947ac438863f8a6ad5, type: 3}
+    type: 0
+    volume: 0.81
+    loop: 0
+  makeItLongerAddingBox:
+    clip: {fileID: 8300000, guid: cbf5af19ee12b614db6cc63ca22f8d3e, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  makeItLongerBoxDropping:
+    clip: {fileID: 8300000, guid: 509308103f313b64aba2794bb045605f, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  fastEyesGameStart:
+    clip: {fileID: 8300000, guid: 9f75a227eda2fb745b3abecf68b29292, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  fastEyesShooting:
+    clip: {fileID: 8300000, guid: adafac93585e6984dbf7717305fda588, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  fastEyesSkippingTarget:
+    clip: {fileID: 8300000, guid: fd9cf9448fbc6e240b241320d58f9d73, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  fastEyesCorrectShooting:
+    clip: {fileID: 8300000, guid: 8bb8a22b915776a45b7b0a3c3abbd750, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  fastEyesIncorrectShooting:
+    clip: {fileID: 8300000, guid: 011f009a782f8554ea96c71cee8bdcbc, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  fastEyesBoomBullet:
+    clip: {fileID: 8300000, guid: 9afafe23ade987f43b91594a6444d80b, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  dontFallLava:
+    clip: {fileID: 8300000, guid: 0b769bc9a763c854bacc3b4ed9bf3292, type: 3}
+    type: 1
+    volume: 1
+    loop: 1
+  dontFallDead:
+    clip: {fileID: 8300000, guid: 6d922d228b993c94f9565f827a5f57d9, type: 3}
+    type: 0
+    volume: 0.8
+    loop: 0
+  dontFallShaking:
+    clip: {fileID: 8300000, guid: b14e1575671c3f44d92cf63ea1c87f89, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  dontFallBroking:
+    clip: {fileID: 8300000, guid: 930bce01e65b4be47ae265cb1e893f34, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  snowbuttBackground:
+    clip: {fileID: 8300000, guid: e84d826338a42e54a959c32ef776ef96, type: 3}
+    type: 1
+    volume: 0.547
+    loop: 1
+  snowbuttThrowingSnow:
+    clip: {fileID: 8300000, guid: 2ae86fad83219df469327d102e9bb1ad, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  snowbuttSnowHit:
+    clip: {fileID: 8300000, guid: 986987f824e482148be0d748bb3c7de5, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  snowbuttDead:
+    clip: {fileID: 8300000, guid: d37939ec04f268a44b352b4299fd5e66, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  booomParticle:
+    clip: {fileID: 8300000, guid: 1078efcd66df0274cb3413664e0fbbef, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  snow:
+    clip: {fileID: 8300000, guid: 8cd77d8e525a27946b8126846b32757b, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  cut:
+    clip: {fileID: 8300000, guid: 98f2fd9fbd52ce544a6d64bbc42a5b3e, type: 3}
+    type: 0
+    volume: 0.82
+    loop: 0
+  correctSlice:
+    clip: {fileID: 8300000, guid: 629e3d499b2d36b4caa242216acea7a3, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  katanaBackground:
+    clip: {fileID: 8300000, guid: 98a5fb4152f006a41b127110f8116864, type: 3}
+    type: 1
+    volume: 0.2
+    loop: 1
+  gamblingIncreaseBet:
+    clip: {fileID: 8300000, guid: 4c8965ac09386fe4a89c00ecbf35ef45, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  gamblingDecreaseBet:
+    clip: {fileID: 8300000, guid: edd9975d7686ade48b3fbc2babe269c3, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  gamblingWin:
+    clip: {fileID: 8300000, guid: 4c8e1944e7a1ff549aaec80460b41bb0, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  gamblingLose:
+    clip: {fileID: 8300000, guid: 23772ccf897d049429e4dd673055740f, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  gamblingBackground:
+    clip: {fileID: 8300000, guid: 39934f9ecfbe00943b5d3bdd3eeea48c, type: 3}
+    type: 1
+    volume: 1
+    loop: 1
+  gamblingButton:
+    clip: {fileID: 8300000, guid: eb83e64d6e4b4604bb9d5804f7224d0c, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  blackjackStartGameButton:
+    clip: {fileID: 8300000, guid: 41d3846e183482249be44160fca33524, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  blackjackCard:
+    clip: {fileID: 8300000, guid: a262a7872f221ef47be0036359947db3, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  horseRaceStartRaceButton:
+    clip: {fileID: 8300000, guid: e711449b4e27a474fa46532387cb9dde, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  horseRaceHorseRunnig:
+    clip: {fileID: 8300000, guid: fc5f446900eb9c64988247047d71104e, type: 3}
+    type: 0
+    volume: 1
+    loop: 1
+  horseRaceStartGun:
+    clip: {fileID: 8300000, guid: 342f6ab2e6d3ca84fa8af3b679f481df, type: 3}
+    type: 0
+    volume: 1
+    loop: 0
+  slotMachine:
+    clip: {fileID: 8300000, guid: 46b7837ae4e7c694c9e2b4a88f38691d, type: 3}
+    type: 0
+    volume: 1
+    loop: 0

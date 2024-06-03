@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e58b248c6ea4eff9af978d9612fb03b, type: 3}
+  m_Name: Market Daily Offers SO
+  m_EditorClassIdentifier: 
+  headOffers:
+  - title: Hat
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 0
+      subIndex: 1
+  - title: Cat Ears
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 0
+      subIndex: 2
+  - title: Crown
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 0
+      subIndex: 3
+  - title: Cool Glasses
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 0
+      subIndex: 4
+  - title: Nerd Glasses
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 0
+      subIndex: 5
+  - title: Top Hat
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 0
+      subIndex: 6
+  - title: Headphones
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 0
+      subIndex: 7
+  - title: Top Hat
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 0
+      subIndex: 8
+  - title: Moustache
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 0
+      subIndex: 9
+  - title: Moustache
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 0
+      subIndex: 10
+  - title: Pipe
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 0
+      subIndex: 11
+  upperBodyOffers:
+  - title: Suit Top
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 1
+      subIndex: 1
+  - title: Red Shirt
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 1
+      subIndex: 2
+  - title: Black Shirt
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 1
+      subIndex: 3
+  - title: Purple Shirt
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 1
+      subIndex: 4
+  lowerBodyOffers:
+  - title: Green Shorts
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 2
+      subIndex: 1
+  - title: Red Shorts
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 2
+      subIndex: 2
+  - title: Trousers
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 2
+      subIndex: 3
+  footOffers:
+  - title: Boots
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 3
+      subIndex: 1
+  - title: Sneakers
+    cost: 500
+    costCurrency: 0
+    skinData:
+      mainIndex: 3
+      subIndex: 2
+  bodyColorOffers:
+  - title: Body Color
+    cost: 1000
+    costCurrency: 0
+    skinData:
+      mainIndex: 4
+      subIndex: 1
+  - title: Body Color
+    cost: 1000
+    costCurrency: 0
+    skinData:
+      mainIndex: 4
+      subIndex: 2
+  - title: Body Color
+    cost: 1000
+    costCurrency: 0
+    skinData:
+      mainIndex: 4
+      subIndex: 3
+  - title: Body Color
+    cost: 1000
+    costCurrency: 0
+    skinData:
+      mainIndex: 4
+      subIndex: 4
+  - title: Body Color
+    cost: 1000
+    costCurrency: 0
+    skinData:
+      mainIndex: 4
+      subIndex: 5
+  - title: Body Color
+    cost: 1000
+    costCurrency: 0
+    skinData:
+      mainIndex: 4
+      subIndex: 6
+  - title: Body Color
+    cost: 1000
+    costCurrency: 0
+    skinData:
+      mainIndex: 4
+      subIndex: 7
+  - title: Body Color
+    cost: 1000
+    costCurrency: 0
+    skinData:
+      mainIndex: 4
+      subIndex: 8
+  - title: Body Color
+    cost: 1000
+    costCurrency: 0
+    skinData:
+      mainIndex: 4
+      subIndex: 9
+  - title: Body Color
+    cost: 1000
+    costCurrency: 0
+    skinData:
+      mainIndex: 4
+      subIndex: 10

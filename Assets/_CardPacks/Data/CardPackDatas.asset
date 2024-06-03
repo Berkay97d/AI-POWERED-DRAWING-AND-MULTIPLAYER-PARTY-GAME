@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29bd19e856c0418cb3dc0fb6c23c6cc7, type: 3}
+  m_Name: CardPackDatas
+  m_EditorClassIdentifier: 
+  cardPackDatas:
+  - name: Common Card Pack
+    cardPackPrefab: {fileID: 6227631796659673646, guid: 598cd769cbfb8a742bafe5a43c9839d8,
+      type: 3}
+    visualPrefab: {fileID: 7842649239970453846, guid: e0e8ec25cff2e8b489a1f52bd6c684ab,
+      type: 3}
+    content:
+      minCoin: 50
+      maxCoin: 300
+      minGem: 0
+      maxGem: 3
+      minCommonUpgradeToken: 2
+      maxCommonUpgradeToken: 5
+      minRareUpgradeToken: 0
+      maxRareUpgradeToken: 2
+      minEpicUpgradeToken: 0
+      maxEpicUpgradeToken: 0
+      minLegendaryUpgradeToken: 0
+      maxLegendaryUpgradeToken: 0
+    unlockDuration:
+      days: 0
+      hours: 0
+      minutes: 30
+      seconds: 0
+    icon: {fileID: 21300000, guid: 571bf45c5a0def44f85b9829067c8a01, type: 3}
+  - name: Rare Card Pack
+    cardPackPrefab: {fileID: 5178023430181677581, guid: ed3eb1785fb48a6469102a586a8f77bc,
+      type: 3}
+    visualPrefab: {fileID: 3768616092820979370, guid: 188bef94c7a823740b4f4215716d35ec,
+      type: 3}
+    content:
+      minCoin: 100
+      maxCoin: 500
+      minGem: 0
+      maxGem: 8
+      minCommonUpgradeToken: 1
+      maxCommonUpgradeToken: 3
+      minRareUpgradeToken: 2
+      maxRareUpgradeToken: 5
+      minEpicUpgradeToken: 0
+      maxEpicUpgradeToken: 1
+      minLegendaryUpgradeToken: 0
+      maxLegendaryUpgradeToken: 0
+    unlockDuration:
+      days: 0
+      hours: 1
+      minutes: 30
+      seconds: 0
+    icon: {fileID: 21300000, guid: fd459d102c334ef4aa24e86ca1a64827, type: 3}
+  - name: Legendary Card Pack
+    cardPackPrefab: {fileID: 5527401627070172193, guid: 098c8b639159eb64089f98124727dd81,
+      type: 3}
+    visualPrefab: {fileID: 8378506843313134647, guid: 7767141cef22cf24cb67a3ec3e3d7376,
+      type: 3}
+    content:
+      minCoin: 1000
+      maxCoin: 5000
+      minGem: 5
+      maxGem: 25
+      minCommonUpgradeToken: 1
+      maxCommonUpgradeToken: 5
+      minRareUpgradeToken: 1
+      maxRareUpgradeToken: 5
+      minEpicUpgradeToken: 1
+      maxEpicUpgradeToken: 5
+      minLegendaryUpgradeToken: 0
+      maxLegendaryUpgradeToken: 1
+    unlockDuration:
+      days: 1
+      hours: 0
+      minutes: 0
+      seconds: 0
+    icon: {fileID: 21300000, guid: 55f27569773fd2b49b688750db6cf424, type: 3}

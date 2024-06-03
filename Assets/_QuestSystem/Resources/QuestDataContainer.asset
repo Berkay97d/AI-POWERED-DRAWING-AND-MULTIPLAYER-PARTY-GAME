@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f525a2b8799e4315830f25d7b68d00af, type: 3}
+  m_Name: QuestDataContainer
+  m_EditorClassIdentifier: 
+  quests:
+  - explanation: Play a competition game
+    type: 0
+    actionCount: 1
+    rewardCount: 100
+    rewardCurrency: 0
+  - explanation: Play snow butt game
+    type: 1
+    actionCount: 1
+    rewardCount: 100
+    rewardCurrency: 0
+  - explanation: Play don't fall game
+    type: 2
+    actionCount: 1
+    rewardCount: 100
+    rewardCurrency: 0
+  - explanation: Play stack game
+    type: 3
+    actionCount: 1
+    rewardCount: 100
+    rewardCurrency: 0
+  - explanation: Play fast eyes game
+    type: 4
+    actionCount: 1
+    rewardCount: 100
+    rewardCurrency: 0
+  - explanation: Win a competition game
+    type: 6
+    actionCount: 1
+    rewardCount: 250
+    rewardCurrency: 0
+  - explanation: Win snow butt game
+    type: 8
+    actionCount: 1
+    rewardCount: 250
+    rewardCurrency: 0
+  - explanation: Win don't fall game
+    type: 9
+    actionCount: 1
+    rewardCount: 250
+    rewardCurrency: 0
+  - explanation: Win stack game
+    type: 10
+    actionCount: 1
+    rewardCount: 250
+    rewardCurrency: 0
+  - explanation: Win fast eyes game
+    type: 11
+    actionCount: 1
+    rewardCount: 250
+    rewardCurrency: 0
+  - explanation: Win snow butt without falling
+    type: 12
+    actionCount: 1
+    rewardCount: 500
+    rewardCurrency: 0
+  - explanation: Win don't fall without falling
+    type: 13
+    actionCount: 1
+    rewardCount: 500
+    rewardCurrency: 0
+  - explanation: Win fast eyes without a miss
+    type: 14
+    actionCount: 1
+    rewardCount: 500
+    rewardCurrency: 0
+  - explanation: Win stack with only single row
+    type: 15
+    actionCount: 1
+    rewardCount: 500
+    rewardCurrency: 0
+  - explanation: Play competion games 5 times
+    type: 0
+    actionCount: 5
+    rewardCount: 1000
+    rewardCurrency: 0
+  - explanation: Play snow butt game 5 times
+    type: 1
+    actionCount: 5
+    rewardCount: 1000
+    rewardCurrency: 0
+  - explanation: Play don't fall game 5 times
+    type: 2
+    actionCount: 5
+    rewardCount: 1000
+    rewardCurrency: 0
+  - explanation: Play stack game 5 times
+    type: 3
+    actionCount: 5
+    rewardCount: 1000
+    rewardCurrency: 0
+  - explanation: Play fast eyes game 5 times
+    type: 4
+    actionCount: 5
+    rewardCount: 1000
+    rewardCurrency: 0
+  - explanation: Win competion games 5 times
+    type: 6
+    actionCount: 5
+    rewardCount: 2500
+    rewardCurrency: 0
+  - explanation: Win snow butt game 5 times
+    type: 8
+    actionCount: 5
+    rewardCount: 2500
+    rewardCurrency: 0
+  - explanation: Win don't fall game 5 times
+    type: 9
+    actionCount: 5
+    rewardCount: 2500
+    rewardCurrency: 0
+  - explanation: Win stack game 5 times
+    type: 10
+    actionCount: 5
+    rewardCount: 2500
+    rewardCurrency: 0
+  - explanation: Win fast eyes game 5 times
+    type: 11
+    actionCount: 5
+    rewardCount: 2500
+    rewardCurrency: 0
+  - explanation: Open a common card pack
+    type: 18
+    actionCount: 1
+    rewardCount: 5
+    rewardCurrency: 1
+  - explanation: Open a rare card pack
+    type: 19
+    actionCount: 1
+    rewardCount: 25
+    rewardCurrency: 1
+  - explanation: Open a legendary card pack
+    type: 20
+    actionCount: 1
+    rewardCount: 100
+    rewardCurrency: 1
+  - explanation: Buy a skin from the market
+    type: 21
+    actionCount: 1
+    rewardCount: 10
+    rewardCurrency: 1
+  - explanation: Place a card to your collection page
+    type: 22
+    actionCount: 1
+    rewardCount: 25
+    rewardCurrency: 1

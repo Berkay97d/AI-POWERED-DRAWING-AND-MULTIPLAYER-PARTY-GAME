@@ -1,0 +1,436 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UNICORN
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 4fa635c0bd75f424f940077a7bef9f80,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.size
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[0]
+    value: 
+    objectReference: {fileID: 2800000, guid: 80cec6758bdba604cb640282a7fbf1c2, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[1]
+    value: 
+    objectReference: {fileID: 2800000, guid: 4440f2a6f12ca534bad49413f52fc0c9, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[2]
+    value: 
+    objectReference: {fileID: 2800000, guid: e14eda99190a4c74da426e44adf7420c, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[3]
+    value: 
+    objectReference: {fileID: 2800000, guid: 29e3f19c166d06d458bf8bfe301369fd, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[4]
+    value: 
+    objectReference: {fileID: 2800000, guid: fe92af0296dd71d4b9774ec25489c9f6, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[5]
+    value: 
+    objectReference: {fileID: 2800000, guid: 1aa21e917f022a547b945eeebf90c251, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[6]
+    value: 
+    objectReference: {fileID: 2800000, guid: d8d3f2a1ad23b6c4fac9a8f268579eb0, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[7]
+    value: 
+    objectReference: {fileID: 2800000, guid: f18766f8deeeba147b4cb8e5d6fd4e84, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[8]
+    value: 
+    objectReference: {fileID: 2800000, guid: de09c7bff599e014b9d649ac6cc421e6, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[9]
+    value: 
+    objectReference: {fileID: 2800000, guid: 2005adceb762a0944abecd5d6612f661, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[10]
+    value: 
+    objectReference: {fileID: 2800000, guid: ee2d40de72663984d8d0cd46038ad9f6, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[11]
+    value: 
+    objectReference: {fileID: 2800000, guid: 3044321a3eafb2449bae1ffd16578938, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[12]
+    value: 
+    objectReference: {fileID: 2800000, guid: 05234167d1784524aa6e9e1dc1953453, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[13]
+    value: 
+    objectReference: {fileID: 2800000, guid: fa69eac52196d1242b6e906b35cca513, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[14]
+    value: 
+    objectReference: {fileID: 2800000, guid: f92d96d89d2005e4ea4518d26c7d4f85, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[15]
+    value: 
+    objectReference: {fileID: 2800000, guid: 1392d2bdebba120469cfb14cf6c5b18d, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[16]
+    value: 
+    objectReference: {fileID: 2800000, guid: 76f9df31ce648e04493129593a4a0934, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[17]
+    value: 
+    objectReference: {fileID: 2800000, guid: ac6fbf59fe0789145abe61d481896eb8, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[18]
+    value: 
+    objectReference: {fileID: 2800000, guid: 43f3e88dc2d0f9046ba87e1f7d9ed7a3, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cardImages.Array.data[19]
+    value: 
+    objectReference: {fileID: 2800000, guid: 927314d7ba976734bb102cf248b95eab, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.size
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[0].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[0].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[0].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[0].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[1].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[1].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[1].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[1].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[2].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[2].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[2].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[2].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[3].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[3].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[3].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[3].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[4].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[4].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[4].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[4].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[5].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[5].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[5].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[5].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[6].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[6].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[6].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[6].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[7].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[7].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[7].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[7].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[8].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[8].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[8].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[8].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[9].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[9].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[9].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[9].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[10].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[10].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[10].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[10].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[11].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[11].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[11].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[11].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[12].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[12].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[12].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[12].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[13].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[13].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[13].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[13].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[14].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[14].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[14].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[14].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[15].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[15].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[15].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[15].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[16].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[16].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[16].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[16].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[17].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[17].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[17].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[17].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[18].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[18].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[18].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[18].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[19].imageID
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[19].score
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[19].subTitle
+    value: UNICORN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cards.Array.data[19].inCollection
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

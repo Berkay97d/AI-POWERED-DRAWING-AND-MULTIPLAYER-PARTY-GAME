@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3133bff56aae425bb6a037a41123c08f, type: 3}
+  m_Name: AiData
+  m_EditorClassIdentifier: 
+  lowAIMin: 0.75
+  lowAIMax: 1.5
+  lowMidAIMin: 0.75
+  lowMidAIMax: 1.5
+  midAIMin: 0.75
+  midAIMax: 1.5
+  midHighAiMin: 0.75
+  midHighAiMax: 1.5
+  highAiMin: 0.5
+  highAiMax: 1.5
+  lowSuccessRate: 0
+  lowMidSuccessRate: 75
+  midSuccessRate: 85
+  midHighSuccessRate: 90
+  highSuccessRate: 98
